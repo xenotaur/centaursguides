@@ -16,7 +16,7 @@ easily adapted to project instructions or AI chat workflows. I plan on adding mo
 the future, so stay tuned!
 
 ## Reliable AI Editing 
-[`reliable-ai-editing.md`](reliable-ai-editing.md) is a Centaur Guide focused on safe,
+[`reliable_ai_editing.md`](reliable_ai_editing.md) is a Centaur Guide focused on safe,
 predictable AI-assisted code updates. It addresses a specific failure mode of conversational
 AI tools: generating plausible but incorrect code edits when authority boundaries are unclear.
 
