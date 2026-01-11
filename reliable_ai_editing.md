@@ -212,7 +212,7 @@ Only in this phase may the AI generate a diff or drop‑in replacement.
 
 A canonical Apply Mode prompt looks like:
 
-```text
+````text
 I choose option 2.
 
 Please apply it using EDIT MODE.
@@ -224,6 +224,7 @@ AUTHORITATIVE CODE:
 ```python
 <exact code here>
 ```
+````
 
 If the authoritative code is missing or ambiguous, the correct behavior is refusal and a request for clarification.
 
@@ -414,7 +415,7 @@ The AI discusses possible causes and suggests a fix.
 
 **Step 2 — Apply Mode (Authority Granted):**
 
-```text
+````text
 I choose option 1.
 
 Please apply it using EDIT MODE.
@@ -426,6 +427,7 @@ AUTHORITATIVE CODE:
 ```python
 <exact code here>
 ```
+````
 
 **Outcome:** A small, reviewable diff affecting only the relevant lines.
 
@@ -446,7 +448,7 @@ The AI proposes multiple designs.
 
 **Step 2 — Apply Mode (Clean Refactor Variant):**
 
-```text
+````text
 I choose option 2.
 
 Please apply it using EDIT MODE.
@@ -458,6 +460,7 @@ AUTHORITATIVE CODE:
 ```python
 <exact code here>
 ```
+````
 
 **Outcome:** Internal restructuring with preserved external behavior.
 
