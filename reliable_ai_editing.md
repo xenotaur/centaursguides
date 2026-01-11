@@ -3,7 +3,7 @@ title: Reliable AI Editing
 subtitle: Editor Contracts and Safe Workflows for AI-Assisted Code Updates
 status: Living Document
 intended_audience: Advanced developers, researchers, and tooling authors
-last_updated: 2026-01-10
+last_updated: 2026-01-11
 ---
 
 # Reliable AI Editing
