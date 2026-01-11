@@ -224,7 +224,6 @@ AUTHORITATIVE CODE:
 ```python
 <exact code here>
 ```
-```
 
 If the authoritative code is missing or ambiguous, the correct behavior is refusal and a request for clarification.
 
@@ -427,7 +426,6 @@ AUTHORITATIVE CODE:
 ```python
 <exact code here>
 ```
-```
 
 **Outcome:** A small, reviewable diff affecting only the relevant lines.
 
@@ -459,7 +457,6 @@ Use the clean-refactor constraints.
 AUTHORITATIVE CODE:
 ```python
 <exact code here>
-```
 ```
 
 **Outcome:** Internal restructuring with preserved external behavior.
